@@ -1,0 +1,52 @@
+$level1:#fff2e8;
+$level2:#ffd8bf;
+$level3:#ffbb96;
+$level4:#ff9c6e;
+$level5:#ff7a45;
+$level6:#fa541c;
+$level7:#d4380d;
+$level8:#ad2102;
+$level9:#871400;
+$level10:#610b00;
+
+.card {
+  .level1 {
+    background-color: $level1;
+  }
+
+  .level2 {
+    background-color: $level2;
+  }
+
+  .level3 {
+    background-color: $level3;
+  }
+
+  .level4 {
+    background-color: $level4;
+  }
+
+  .level5 {
+    background-color: $level5;
+  }
+
+  .level6 {
+    background-color: $level6;
+  }
+
+  .level7 {
+    background-color: $level7;
+  }
+
+  .level8 {
+    background-color: $level8;
+  }
+
+  .level9 {
+    background-color: $level9;
+  }
+
+  .level10 {
+    background-color: $level10;
+  }
+}

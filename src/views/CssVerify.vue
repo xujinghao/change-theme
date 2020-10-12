@@ -69,7 +69,6 @@ export default {
   justify-items: center;
   align-content: center;
   height: 100vh;
-  width: 100vw;
   font-family: "Lato", sans-serif;
 }
 

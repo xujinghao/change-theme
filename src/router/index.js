@@ -8,22 +8,26 @@ const routes = [{
     redirect: "/cssVerify"
   },
   {
-    path: '/about',
-    name: 'about',
-    component: () => import( /* webpackChunkName: "about" */ '../views/About.vue')
-  },
-
-  {
     path: '/cssVerify',
     name: 'cssVerify',
-    component: () => import( /* webpackChunkName: "about" */ '../views/CssVerify.vue')
+    component: () => import( /* webpackChunkName: "CssVerify" */ '../views/CssVerify.vue')
   },
-  
   {
     path: '/cssVerifyCard',
     name: 'cssVerifyCard',
-    component: () => import( /* webpackChunkName: "about" */ '../views/CssVerifyCard.vue')
+    component: () => import( /* webpackChunkName: "CssVerifyCard" */ '../views/CssVerifyCard.vue')
   },
+  {
+    path: '/cssVerifyPicker',
+    name: 'cssVerifyPicker',
+    component: () => import( /* webpackChunkName: "CssVerifyPicker" */ '../views/CssVerifyPicker.vue')
+  },
+  {
+    path: '/cssFileCard',
+    name: 'cssFileCard',
+    component: () => import( /* webpackChunkName: "CssFileCard" */ '../views/CssFileCard.vue')
+  },
+  
 ]
 
 const router = new VueRouter({

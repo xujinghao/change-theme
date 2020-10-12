@@ -1,5 +1,5 @@
 <template>
-  <div class="theme-container" ref="container">
+  <div class="container" ref="container">
     <div style="margin-bottom: 20px">
       <span>主题：</span>
       <a-select
@@ -597,7 +597,6 @@ export default {
   created() {
     this.changeTheme(this.activeThemeKey);
   },
-
   watch: {
     activeThemeKey(val) {
       this.changeTheme(val);
@@ -609,7 +608,6 @@ export default {
         return theme.key == themeKey;
       });
       this.activeTheme = this.themes[index];
-      console.log("this.themes[index]: ", this.themes[index]);
       let verifies = this.themes[index].value;
       verifies.forEach((verify) => {
         document.documentElement.style.setProperty(
@@ -622,7 +620,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.theme-container {
+.container {
   height: 100vh;
   display: flex;
   flex-direction: column;

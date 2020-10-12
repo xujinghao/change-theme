@@ -26,11 +26,6 @@ export default {
     return {
       menu: [
         {
-          key: "about",
-          routeName: "about",
-          path: "about",
-        },
-        {
           key: "cssVerify",
           routeName: "css变量切换主题",
           path: "cssVerify",
@@ -39,6 +34,16 @@ export default {
           key: "cssVerifyCard",
           routeName: "css变量 色卡",
           path: "cssVerifyCard",
+        },
+        {
+          key: "cssVerifyPicker",
+          routeName: "css变量 选色器",
+          path: "cssVerifyPicker",
+        },
+        {
+          key: "cssFileCard",
+          routeName: "css文件",
+          path: "cssFileCard",
         },
       ],
       selectKey: [],
